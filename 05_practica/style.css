@@ -1,0 +1,36 @@
+*{
+    margin: 15px;
+    padding: 0;
+     /* outline: solid 1px red;   */
+} 
+
+.margin, .border, .padding, .content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.margin{
+    width: 650px;
+    height: 370px;
+    background-color: rgb(209,91,25);
+}
+
+.border{
+    width: 490px;
+    height: 270px;
+    background-color: rgb(229,166,133);
+}
+
+.padding{
+    width: 350px;
+    height: 170px;
+    background-color: rgb(69,159,199);
+}
+
+.content{
+    width: 280px;
+    height: 90px;
+    background-color: rgb(159,202,224) ;
+}
