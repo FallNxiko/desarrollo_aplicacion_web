@@ -6,7 +6,17 @@
 
 .container{
     width: 700px;
-    height: 700px;
-    
+    height: 800px;
+    margin: 0px auto;
+    padding: 30px;
 }
 
+.mikoyan{
+    width: 700px;
+    height: 200px;
+}
+
+.sukhoi{
+    width: 700px;
+    height: 200px;
+}
