@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: solid 1px red;
+}
+
+.container{
+    width: 700px;
+    height: 700px;
+    
+}
+
