@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline: solid 1px red; */
+}
+
+button{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grupo{
+    width: 300px;
+    padding: 50px;
+}
+
+.boton1{
+        border: 2px solid #31a7a9; 
+        width: 150px;
+        height: 27px;
+        border-radius: 30%;
+        border-radius: 20px;
+        color: #31a7a9
+}
+
+.boton2{
+    background-color:#00d1b2 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px;
+    color: white;
+    font-size: 25px;
+}
+
+.boton3{
+    background-color:rgb(43,120,228);
+    color: white;
+    width: 180px;
+    height: 30px;
+    box-shadow: 3px 3px  black;
+}
