@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* outline: solid 1px red; */
+}
+
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: rgb(234,235,229);
+    margin-top: 30px;
+}
+
+.mikoyan{
+    width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(89,197,251);
+}
+
+.sukhoi{
+    width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(202,161,174);
+}
+
+.lockheed_martin{
+    width: 700px;
+    height: 200px;
+    background-color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
