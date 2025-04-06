@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: solid 1px red; */
+}
+
+a{
+    margin: 10px;
+    text-decoration: none; /*quita decoracion de etiqueta anchor*/
+    color: white;
+}
+
+.nav{
+    background-color: rgb(51,51,51);
+    display: flex;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-links{
+    margin-left: 270px;
+}
+
+.chao{
+    
+}
