@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: solid 1px red;
+}
+ 
+.cyan{
+    background-color: rgb(66,163,185);
+    
+}
