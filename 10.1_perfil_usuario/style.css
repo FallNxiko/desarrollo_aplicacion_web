@@ -1,10 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     outline: solid 1px red;
 }
- 
-.cyan{
-    background-color: rgb(66,163,185);
+
+.cyan {
+    background-color: rgb(66, 163, 185);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.imagen {
     
 }
