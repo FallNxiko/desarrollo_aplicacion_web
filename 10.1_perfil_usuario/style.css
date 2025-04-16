@@ -9,7 +9,6 @@
     margin: 0px auto;
     margin-top: 50px;
     width: 800px;
-    height: 390px;
     border-radius: 1%;
     box-shadow: 0px 0px 5px 1px;
 }
@@ -20,31 +19,49 @@
 }
 
 .miniContainer{
-    margin: 10px;
-    
+    margin-top: 80px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
 }
 .imagen img {
     height: 180px;
     margin-top: 10px;
-    padding: 15px;
+    border: solid 5px white ;
+    border-radius: 100%;
+    margin: 10px;
+}
+.ubicacion img{
+    height: 25px;
+
 }
 .row{
     display: flex; 
     height: 20px;
+    margin-bottom: 10px;
+}
+.atributos{
+    display: flex;
+    flex-direction: column;
 }
 .nombre{
-    margin-top: 100px;
     padding: 5px;
 }
 
 p{
     font-size:  20px;
-    margin: 10px;
+
 }
 
 .confguracion{
-    height: 25px;
     display: flex;
-    text-decoration: underline;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+
     color: rgb(45,121,228);
+}
+
+.tuercaIMG{
+    height: 25px;
 }
