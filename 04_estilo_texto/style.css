@@ -1,45 +1,49 @@
-*{
+* {
     margin: 15px;
     padding: 0;
-     outline: solid 1px red;  
-} 
-
-.container{
-    padding: 20px ;
+    outline: solid 1px red;
 }
-.titulo, .morado, .link{
+
+.container {
+    padding: 20px;
+}
+
+.titulo,
+.morado,
+.link {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.titulo{ 
+
+.titulo {
     background-color: black;
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.morado{
-    background-color: rgb(102,51,153);
+.morado {
+    background-color: rgb(102, 51, 153);
     text-align: center;
-    color:white;
+    color: white;
     font-size: 20px;
     font-style: italic;
 }
 
-.link{
-    background-color: rgb(159,197,248);
+.link {
+    background-color: rgb(159, 197, 248);
     text-align: right;
     text-decoration: underline;
 }
 
 span {
-    color: rgb(0,255,255);
+    color: rgb(0, 255, 255);
 }
 
-h1{
+h1 {
     margin-left: 20px;
 }
 
-h3:hover{
+h3:hover {
     text-decoration: underline;
     color: blue;
     cursor: pointer;

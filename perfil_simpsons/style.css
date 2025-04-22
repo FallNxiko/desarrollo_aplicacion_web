@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: solid 1px red; */
+    margin: auto;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(244,244,244);
+}
+
+.main{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 1px;
+}
+
+.gatoloko{
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    border-radius: 100%;
+    border: solid 8px rgb(255, 255, 255);
+}
+.info{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    margin: 15px;
+
+}
+.enlaces{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color:rgb(43,120,228) ;
+    color: white;
+    border-radius: 10px;
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
