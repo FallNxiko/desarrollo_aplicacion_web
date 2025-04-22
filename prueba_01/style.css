@@ -1,78 +1,98 @@
 * {
     padding: 0px;
     margin: 0px;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
     margin: auto;
     text-align: center;
 }
-.container{
+
+.container {
     margin-top: 100px;
-    background-color: rgb(244,244,244);
+    color: rgb(51, 46, 84);
 }
-.main{
-    height: 600px;
-    width: 1100px;
-    background-color: rgb(255,255,255);
+
+.main {
+    max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0px 2px 10px 1px;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ilustracion{
+
+.ilustracion {
     display: flex;
-    flex-flow: column;
-    align-items: start;
-    height: 20px;
+    flex-flow: column wrap;
     margin-bottom: 15px;
-    margin-left: 10px;
-    margin-top: 15px; 
-}
-
-.imagenes{
-    display: flex;
-
-}
-.derecho{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    flex-flow: row;
-}
-.izquierdo{
-    height: 600px;
-    width: 300px;
-}
-
-p{
-    margin-top: 20px;
-}
-
-h3{
-    margin-top: 50px;
-}
-
-.IFN{
-    display: flex;
-    flex-flow: column;
-    align-items: start;
-    height: 20px;
-    margin-bottom: 15px;
-    margin-left: 10px;
     margin-top: 15px;
 }
 
-.inicio{
+.imagenes {
     display: flex;
-    flex-flow: column;
+    align-items: center;
+    margin-top: 40px;
+    flex-flow: row wrap;
+    justify-content: space-around 10xp;
+
+}
+
+.derecho {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.izquierdo {
+    margin-left: auto;
+}
+
+p {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    text-align: center;
+}
+
+h4 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    margin-top: 30px;
+}
+
+.IFN {
+    display: flex;
+    flex-flow: column wrap;
     align-items: start;
     height: 20px;
     margin-bottom: 15px;
-    margin-left: 10px;
-    margin-top: 15px; 
+    
+    margin-top: 15px;
 }
 
-.titulo{
+.inicio {
     display: flex;
-    flex-flow: row;
-    align-items: center;
+    flex-flow: column wrap;
+    align-items: start;
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
 
+.titulo {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.numeros{
+    text-align: left;
+}
+
+.foto2{
+    margin-top: 13px;
 }
