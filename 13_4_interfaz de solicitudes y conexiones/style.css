@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: solid 1px greenyellow;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    margin-top: 100px;
+    
+}
