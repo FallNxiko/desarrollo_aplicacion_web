@@ -1,12 +1,58 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: solid 1px greenyellow;
-    margin: auto;
+    /* outline: solid 1px greenyellow; */
 }
 
 .container{
     display: flex;
     margin-top: 100px;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.mains{
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 800px;
+    border-radius: 1%;
+    box-shadow: 0px 0px 10px 1px;
+    max-width: 500px;
+}
+
+.superior-top{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.goals{
+    width: 25px;
+    height: 25px;
+}
+
+.mause{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.check{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.fusion{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+button{
+    border: 2px solid #31a7a9; 
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    color: #31a7a9
     
 }
+
