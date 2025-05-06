@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: solid 1px red;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}

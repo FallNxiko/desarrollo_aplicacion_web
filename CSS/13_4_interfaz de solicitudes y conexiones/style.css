@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: solid 1px rgb(0, 0, 0);
+    /* outline: solid 1px rgb(0, 0, 0); */
 }
 
 .container{
@@ -31,9 +31,8 @@
 .goals{
     width: 25px;
     height: 25px;
-    flex-flow: column;
-    margin: 10px;
     gap: 10px;
+    
 }
 
 .mause{
@@ -46,13 +45,12 @@
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
-    justify-content: ;
+    align-items: center;
 }
 
 .fusion{
     display: flex;
     flex-flow: row wrap;
-    margin: 10px auto;
 }
 
 button{
@@ -63,3 +61,7 @@ button{
     color: #31a7a9;
 }
 
+.users{
+    display: flex;
+    flex-flow: column wrap;
+}
