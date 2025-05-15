@@ -1,10 +1,24 @@
 *{
     margin: 0;
     padding: 0;
-    outline: ;
+    outline: solid 1px red;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container{
     width: 100%;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container button {
+    padding: 20px ;
+    background-color: rgb(223, 5, 223);
+    color: rgb(0, 255, 0);
+    border-radius: 10%;
 }
