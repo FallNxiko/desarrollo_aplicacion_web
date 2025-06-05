@@ -9,11 +9,11 @@
     flex-flow: column;
 }
 
-.main {
+.main1 {
     margin: auto;
-    height: 600px;
-    width: 600px;
-    background-color: rgb(255, 255, 255);
+    max-height: 800px;
+    width: 650px;
+    background-color: rgb(241, 241, 241);
     border-radius: 10px;
     box-shadow: 0px 2px 10px 1px;
 }
