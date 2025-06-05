@@ -3,4 +3,13 @@ function listacompras(){
     compras.push("pan", "leche", "huevos")
     alert(`lista de compras: ${compras.join(" - ")}`)
 }
-let array = ["xbox", "nintendo"]
+
+function quitar (){
+    let basurero = compras.pop()
+    alert(`El producto eliminado es : ${basurero}`)
+}
+
+function agregar(){
+    let colores = ["rojo", "azul"]
+    
+}
