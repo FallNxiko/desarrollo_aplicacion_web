@@ -31,13 +31,13 @@ alert(" El color a sido eliminado :" + color_eliminado);
 let numeros = [ 10, 20, 30]
 
 function agregar_numeros(){
-    numeros.push(40);
-    alert(`Le agregamos 40 al final`);
-    numeros.shift();
-    alert(`Le quitamos el primer numero`);
+    numeros.push(40)
+    alert(`Le agregamos 40 al final`)
+    numeros.shift()
+    alert(`Le quitamos el primer numero`)
     numeros.unshift(5);
-    alerta(`le agregmos un 5 al inicio `);
-    numeros.pop();
-    alert(`eliminimos el utlimo numero`);
-    alert(`El arreglo quedo asi ${numeros.join("--> ")}`);
+    alert(`le agregmos un 5 al inicio `)
+    numeros.pop()
+    alert(`eliminimos el utlimo numero`)
+    alert(`El arreglo quedo asi ${numeros.join("--> ")}`)
 }
