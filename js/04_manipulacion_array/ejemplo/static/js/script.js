@@ -27,10 +27,4 @@ alert("El nuevo arreglo es: " + array.join(" - "))
 }
 
 
-function usarShift(){
-// elimina el primer  elemento (vamos a alamcenar el dato eliminado)
-let basurero = array.shift();
-
-alert(`Elemento eliminado: ${basurero}`);
-
-}
+c
