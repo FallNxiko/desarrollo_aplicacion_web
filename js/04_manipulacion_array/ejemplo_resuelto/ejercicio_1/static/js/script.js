@@ -41,3 +41,19 @@ function agregar_numeros(){
     alert(`eliminimos el utlimo numero`)
     alert(`El arreglo quedo asi ${numeros.join("--> ")}`)
 }
+
+// eje 6 
+
+let orden = []
+
+function agregarOrdenInverso (){
+    // cremamos una variable
+    let num1 = prompt ("ingresa numero 1");
+    orden.unshift(num1)
+    let num2 = prompt("ingresa numero 2");
+    orden.unshift(num2);
+    let num3 = prompt("ingresa numero 3");
+    orden.unshift(num3)
+    
+    alert(`Orden inverso: ${orden.join("-->")}`)
+}
