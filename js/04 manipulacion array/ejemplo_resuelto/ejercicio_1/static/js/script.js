@@ -57,3 +57,6 @@ function agregarOrdenInverso (){
     
     alert(`Orden inverso: ${orden.join("-->")}`)
 }
+
+// eje 7
+
