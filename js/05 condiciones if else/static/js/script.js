@@ -9,3 +9,11 @@ function mayoriaEdad() {
         document.getElementById("resultado").innerHTML = `<p>EL valor <strong>${edad}</strong> es invalido.</p>`;
     }
 }   
+
+let productos = ["pan", "leche", "queso"];
+function AñadirProductos(){
+    let nuevoProducto = prompt("Igrese un nuevo producto: ");
+    if(productos[0] == nuevoProducto){
+        document.getElementById("resultado2").innerHTML = `<p>producto <strong>${nuevoProducto}</strong> ya ingresado .</p>`;
+    }else if()
+}
