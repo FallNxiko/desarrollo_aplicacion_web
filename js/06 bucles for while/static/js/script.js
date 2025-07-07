@@ -1,4 +1,3 @@
-console.log (hola)
 // ✅ Ejercicio 1: Contador del 1 al N
 // Pide al usuario un número con prompt() y usa un for para mostrar los números del 1 hasta ese número.
 
@@ -19,9 +18,11 @@ function contarHastaN (){
 
 
 function SumaDe5Números(){
+    M = 1
+    let lista = []
+    while( M <= 5 ){
     let N = parseInt(prompt("ingrese 5 numeros del 1 al 10"))
-    N = 0
-    for(){
-        
+    lista.push(N)
+    M++
     }
 }
