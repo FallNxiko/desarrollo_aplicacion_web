@@ -41,7 +41,12 @@ function NumerosPares(){
     for(let i = 1; i <= 20; i++ ){
         if( i % 2===0){
             num.push(i)
-            
+            alert(n+" Es par")
+        }else{
+            alert(n+"No es par")
         }
-    }
-}
+    };
+    document.getElementById("resultado").innerHTML = `<p>los Numeros que colocaste son :</p><br> 
+    <strong>${Num.puch(" - ")}</strong>`
+};
+
