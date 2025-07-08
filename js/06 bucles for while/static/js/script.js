@@ -19,10 +19,24 @@ function contarHastaN (){
 
 function SumaDe5Números(){
     M = 1
+    Resul = 0 
     let lista = []
     while( M <= 5 ){
     let N = parseInt(prompt("ingrese 5 numeros del 1 al 10"))
     lista.push(N)
+    Resul += N
     M++
     }
+    document.getElementById("resultado").innerHTML = `<p>los Numeros que colocaste son :</p><br> 
+    <strong>${lista.join(" - ")}</strong>`
+        alert("La suma de tus numeros es :"+Resul)
+}
+
+// ✅ Ejercicio 3: Mostrar solo los pares entre 1 y 20
+// Usa un for para mostrar en pantalla solo los números pares del 1 al 20.
+
+
+    let Num = [];
+function NumerosPares(){
+    
 }
