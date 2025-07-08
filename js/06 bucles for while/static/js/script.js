@@ -38,5 +38,10 @@ function SumaDe5Números(){
 
     let Num = [];
 function NumerosPares(){
-    
+    for(let i = 1; i <= 20; i++ ){
+        if( i % 2===0){
+            num.push(i)
+            
+        }
+    }
 }
