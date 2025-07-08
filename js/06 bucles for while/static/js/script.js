@@ -36,14 +36,15 @@ function SumaDe5Números(){
 // Usa un for para mostrar en pantalla solo los números pares del 1 al 20.
 
 
-    let Num = [];
+
 function NumerosPares(){
+    let Num = [];
     for(let i = 1; i <= 20; i++ ){
         if( i % 2===0){
-            num.push(i)
-            alert(n+" Es par")
+        Num.push(i)
+            document.getElementById("resultado").innerHTML = `<p>este numero es par:</p><br><strong>${i.join(" - ")}</strong>`
         }else{
-            alert(n+"No es par")
+            document.getElementById("resultado").innerHTML = `<p>este numero no es par:</p><br><strong>${i.join(" - ")}</strong>`
         }
     };
     document.getElementById("resultado").innerHTML = `<p>los Numeros que colocaste son :</p><br> 
