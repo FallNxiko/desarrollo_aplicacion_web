@@ -68,6 +68,10 @@ function CuentaRegresiva(){
 // Solicita al usuario un número y usa un for para mostrar su tabla de multiplicar del 1 al 10.
 
 function TablasDeMultiplicar(){
-    let M = []
+    let n = parent(prompt("Ingrese un número para ver su tabla de multiplicar: "))
     
+    for(let Cont = 1; Cont <= 10; Cont++){
+
+    }
+
 }
