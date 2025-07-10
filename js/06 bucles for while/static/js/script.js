@@ -41,13 +41,23 @@ function NumerosPares(){
     let Num = [];
     for(let i = 1; i <= 20; i++ ){
         if( i % 2===0){
-        Num.push(i)
-            document.getElementById("resultado").innerHTML = `<p>este numero es par:</p><br><strong>${i.join(" - ")}</strong>`
-        }else{
-            document.getElementById("resultado").innerHTML = `<p>este numero no es par:</p><br><strong>${i.join(" - ")}</strong>`
+            Num.push(i)
         }
     };
-    document.getElementById("resultado").innerHTML = `<p>los Numeros que colocaste son :</p><br> 
-    <strong>${Num.puch(" - ")}</strong>`
+    document.getElementById("resultado").innerHTML = `<div><p>Número pares del 1 al 20:</p>
+    <strong><p><br>${Num.join(" - ")}</p></strong></div>`
 };
 
+// ✅ Ejercicio 4: Contador regresivo con condición
+// Pide un número al usuario y, usando un while, cuenta regresivamente hasta 0. Si el número es menor que 0, muestra "Número no válido".}
+
+function CuentaRegresiva(){
+    let N = parseInt(prompt("ingrese un numero para la cuenta regresiva"))
+    let C = 0
+    while(N >= 0){
+        if(N < 0){
+            document.getElementById("resultado").innerHTML = `<div><p>Ponete ma vio y no pongai 0 won pao:</p><strong><p><br>${N.join(" - ")}</p></strong></div>`
+        }
+        N 
+    }
+}
