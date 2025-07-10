@@ -53,11 +53,13 @@ function NumerosPares(){
 
 function CuentaRegresiva(){
     let N = parseInt(prompt("ingrese un numero para la cuenta regresiva"))
-    let C = 0
+    let Resultado =""
     while(N >= 0){
         if(N < 0){
             document.getElementById("resultado").innerHTML = `<div><p>Ponete ma vio y no pongai 0 won pao:</p><strong><p><br>${N.join(" - ")}</p></strong></div>`
         }
-        N 
+    resultado += `${N} `;    
+    N--;
     }
+    
 }
