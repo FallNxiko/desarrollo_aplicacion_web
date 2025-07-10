@@ -52,14 +52,22 @@ function NumerosPares(){
 // Pide un número al usuario y, usando un while, cuenta regresivamente hasta 0. Si el número es menor que 0, muestra "Número no válido".}
 
 function CuentaRegresiva(){
-    let N = parseInt(prompt("ingrese un numero para la cuenta regresiva"))
+    let n = parseInt(prompt("ingrese un numero para la cuenta regresiva"))
     let Resultado =""
-    while(N >= 0){
-        if(N < 0){
-            document.getElementById("resultado").innerHTML = `<div><p>Ponete ma vio y no pongai 0 won pao:</p><strong><p><br>${N.join(" - ")}</p></strong></div>`
-        }
-    resultado += `${N} `;    
-    N--;
+    if (n < 0 || isNaN(n)) {
+        alert("Numero no valido");
     }
+    while(n >= 0){
+        Resultado += `${n} `;    
+        n--;
+    };
+        document.getElementById("resultado").innerHTML = `<div><p>los numeros en cuenta regresiva son : </p><strong><p><br>${Resultado.trim()}</p></strong></div>`
+};
+
+// ✅ Ejercicio 5: Mostrar la tabla de multiplicar de un número
+// Solicita al usuario un número y usa un for para mostrar su tabla de multiplicar del 1 al 10.
+
+function TablasDeMultiplicar(){
+    let M = []
     
 }
