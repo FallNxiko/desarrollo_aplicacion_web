@@ -46,14 +46,14 @@ function NumerosPares(){
     };
     document.getElementById("resultado").innerHTML = `<div><p>Número pares del 1 al 20:</p>
     <strong><p><br>${Num.join(" - ")}</p></strong></div>`
-};
+}
 
 // ✅ Ejercicio 4: Contador regresivo con condición
 // Pide un número al usuario y, usando un while, cuenta regresivamente hasta 0. Si el número es menor que 0, muestra "Número no válido".}
 
 function CuentaRegresiva(){
     let n = parseInt(prompt("ingrese un numero para la cuenta regresiva"))
-    let Resultado =""
+    let Resultado = ""
     if (n < 0 || isNaN(n)) {
         alert("Numero no valido");
     }
@@ -62,16 +62,29 @@ function CuentaRegresiva(){
         n--;
     };
         document.getElementById("resultado").innerHTML = `<div><p>los numeros en cuenta regresiva son : </p><strong><p><br>${Resultado.trim()}</p></strong></div>`
-};
+}
 
 // ✅ Ejercicio 5: Mostrar la tabla de multiplicar de un número
 // Solicita al usuario un número y usa un for para mostrar su tabla de multiplicar del 1 al 10.
 
 function TablasDeMultiplicar(){
-    let n = parent(prompt("Ingrese un número para ver su tabla de multiplicar: "))
-    
-    for(let Cont = 1; Cont <= 10; Cont++){
-
-    }
-
+    let tablas = document.getElementById("resultado");
+    let n = parseInt(prompt("Ingrese un número para ver su tabla de multiplicar: "));
+    let resultado = [];
+        // definir contador  condicion   incremetador 
+    for(let i = 1; i <= 10; i++){
+    let mult = n * i;
+    resultado.push(mult);
+    console.log("resultado")
+    let parrafo = document.createElement("p");
+ /*   parrafo.className = "elementoTabla"; */
+    parrafo.textContent = `${n} x: ${i} = ${mult}`;
+    tablas.appendChild(parrafo);
+    };
 }
+
+// ✅ Ejercicio 6: Sumar hasta que se ingrese cero
+// Con while, sigue pidiendo números con prompt() y súmalos, hasta que el usuario escriba 0. Muestra el total acumulado.
+
+
+function 
