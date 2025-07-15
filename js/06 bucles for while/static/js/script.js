@@ -86,5 +86,12 @@ function TablasDeMultiplicar(){
 // ✅ Ejercicio 6: Sumar hasta que se ingrese cero
 // Con while, sigue pidiendo números con prompt() y súmalos, hasta que el usuario escriba 0. Muestra el total acumulado.
 
-
-function 
+    
+function SumarHastaCero(){
+    let Acumulador = []
+    let suma = 0 
+    let NumU = parseInt(prompt("ingrese un numero para sumarlo (ingrese cero para terminarlo) :"))
+    while(true){
+        
+    }
+}
