@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-color: rgb(236, 94, 94);
+}
+
+header {
+    background-color: #101112;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+}
+
+.profile {
+    color: white;
+    text-shadow: 0px 0px 10px red;
+    text-decoration: none;
+}
+
+.profile:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 80px auto;
+    gap: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+.text {
+    color: white;
+    text-shadow: 0px 0px 10px cyan,
+        0px 0px 20px cyan,
+        0px 0px 40px cyan,
+        0px 0px 80px cyan;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #186BBE;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #186BBE;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 0 0 10px #164D85, 0 0 20px #186BBE, 0 0 30px #133A61;
+}
+
+.btn:not(:hover) {
+    background-color: transparent;
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+.btn:active {
+    transform: scale(1.0);
+    transition: 0.2s;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.resultado p {
+    text-shadow: 0px 0px 10px cyan,
+        0px 0px 20px cyan,
+        0px 0px 40px cyan,
+        0px 0px 80px cyan;
+}
+
+.containerCajas {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 80px auto;
+    gap: 40px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
