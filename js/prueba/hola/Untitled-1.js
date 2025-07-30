@@ -28,7 +28,7 @@ console.log("Prueba de js..")
 function NumerosImpar(Num) {
     let resultado = []
     for (let i = 1; i <= Num; i++) {
-        if (i % 3 === 0) {
+        if (i % 2 ==! 0) {
             resultado.push(i);
         }
         console.log(resultado)
