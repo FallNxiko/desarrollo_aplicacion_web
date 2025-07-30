@@ -47,3 +47,5 @@ function mostrarComparacion(){
     input1.focus();
     input2.value ="";
 }
+
+
